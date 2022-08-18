@@ -1,0 +1,4 @@
+compilar con:
+```
+g++ *.cpp controller/*.cpp LinkedList/*.cpp solUno/*.cpp solDos/*.cpp controller/*.cpp LinkedList/*.cpp
+```
