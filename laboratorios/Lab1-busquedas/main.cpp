@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+
+#include <iostream>
 #include "Busqueda.h"
 
 using namespace std;

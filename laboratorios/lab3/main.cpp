@@ -69,14 +69,16 @@ void solucionDos(int *vec, int n, int *resp){
 
 int main(){
     srand (time(NULL));
-    int n, q;
-    n = 14000;
+    const int n = 14000;
+    int q;
     int vec[n];
 
     cout << "Cuantos indices quieres buscar?" << endl;
     cin >> q;
 
-    int indices[q];
+    auto ab = q;
+
+    int* indices = new int[ab];
     cout << "Que indices quieres buscar?\nRango: 0 a " << (999) << endl;
     for(int i = 0; i < q; i++)
         cin>>indices[i];
@@ -143,5 +145,6 @@ int main(){
     // printeoDeIndices(indices, respuestas, q);
 
 
+    delete[] indices;
     return 0;
 }

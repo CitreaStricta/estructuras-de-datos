@@ -127,7 +127,7 @@ queue<pair<string, int>>* Predictor::predict(string root, int k_mostFrequent)
         {// si la cantidad de palabras en "preliminar" es mayor o igual
         // a la cantidad de palabras que quiero encontrar
         // entonces encuentra las con mayor frequencia y guardalas en prediction
-            pair<string, int> filtro[k_mostFrequent];
+            vector<pair<string, int>> filtro(k_mostFrequent);
             filtro[0] = preliminar->front();
             preliminar->pop();
             int menorIndex = 0; // el index de la 1era palabra en "filtro"

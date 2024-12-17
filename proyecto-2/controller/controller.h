@@ -4,7 +4,6 @@
 #include <iostream>
 #include <utility>
 #include <vector>
-#include <list>
 
 using namespace std;
 class controller

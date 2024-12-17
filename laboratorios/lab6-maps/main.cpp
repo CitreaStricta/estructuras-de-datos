@@ -1,4 +1,3 @@
-#include <bits/stdc++.h>
 #include "MapB/MapB.h"
 #include "MapG/MapG.h"
 #include "MapDH/MapDH.h"
