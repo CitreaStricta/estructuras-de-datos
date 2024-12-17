@@ -18,9 +18,12 @@ Puede revisar el documento donde se explica en detalle el funcionamiento del alg
 ```
 
 `dic.txt`: el nombre del archivo que se usará como diccionario base para buscar palabras.
+
 `quer.txt`: Aquí se ingresan las palabras que se estarían "escribiendo en el buscador".
+
 `resp.txt`: Archivo generado por el ejecutable (puede tener el nombre que quieran, pero debe ser un .txt), el cual contendrá
 las palabras que se predecirían en base a las palabras ingresadas en el `quer.txt`.
+
 `<numero>`: Un número entero que indica la cantidad de palabras parecidas que se quieren encontrar.
 
 ## Proyecto-2 de estructura de datos de compresión de largas cadenas de caracteres haciendo uso del algoritmo Re-Pair
